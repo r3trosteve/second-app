@@ -12,6 +12,8 @@ group :production do
 	gem 'pg'
 end
 
+gem 'newrelic_rpm'
+
 #configure web server
 gem 'unicorn', group: :production
 gem 'thin', group: :development
