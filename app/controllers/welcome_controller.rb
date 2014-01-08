@@ -1,3 +1,3 @@
-class WelcomeController
+class WelcomeController < ActionController::Base
 
 end
