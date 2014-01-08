@@ -12,6 +12,10 @@ group :production do
 	gem 'pg'
 end
 
+#configure web server
+gem 'unicorn', group: :production
+gem 'thin', group: :development
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
